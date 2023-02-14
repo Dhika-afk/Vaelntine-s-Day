@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.greetings{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.greetings > span{
+    animation: glow 0.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fc0000;
+        text-shadow: 0 0 12px #ff0000, 0 0 50px #ff0000, 0 0 100px #ff0000;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings > span:nth-child(1){
+    animation-delay: .10s ;
+}
+.greetings > span:nth-child(2){
+    animation-delay: .20s ;
+}
+.greetings > span:nth-child(3){
+    animation-delay: .30s ;
+}
+.greetings > span:nth-child(4){
+    animation-delay: .40s;
+}
+.greetings > span:nth-child(5){
+    animation-delay: .50s;
+}
+.greetings > span:nth-child(6){
+    animation-delay: 1s ;
+}
+.greetings > span:nth-child(7){
+    animation-delay: 1.10s ;
+}
+.greetings > span:nth-child(8){
+    animation-delay: 1.20s ;
+}
+.greetings > span:nth-child(9){
+    animation-delay: 1.30s ;
+}
+.greetings > span:nth-child(10){
+    animation-delay: 1.40s ;
+}
+.greetings > span:nth-child(11){
+    animation-delay: 1.50s ;
+}
+.greetings > span:nth-child(12){
+    animation-delay: 2s ;
+}
+.greetings > span:nth-child(13){
+    animation-delay: 2.10s ;
+}
+.greetings > span:nth-child(14){
+    animation-delay: 2.20s ;
+}
+.greetings > span:nth-child(15){
+    animation-delay: 2.30s ;
+}
+.greetings > span:nth-child(16){
+    animation-delay: 2.40s ;
+}
+.greetings > span:nth-child(17){
+    animation-delay: 2.50s;
+}
+.greetings > span:nth-child(18){
+    animation-delay: 3s ;
+}
+.greetings > span:nth-child(19){
+    animation-delay: 3.10s ;
+}
+.greetings > span:nth-child(20){
+    animation-delay: 3.20s ;
+}
+.greetings > span:nth-child(21){
+    animation-delay:  3.30s;
+}
+.greetings > span:nth-child(22){
+    animation-delay: 3.40s ;
+}
+.greetings > span:nth-child(23){
+    animation-delay: 3.50s ;
+}
+.greetings > span:nth-child(24){
+    animation-delay: 4s ;
+}
+.greetings > span:nth-child(25){
+    animation-delay: 4.10s;
+}
+.greetings > span:nth-child(26){
+    animation-delay: 4.20s ;
+}
+.greetings > span:nth-child(27){
+    animation-delay: 4.30s ;
+}
+.greetings > span:nth-child(28){
+    animation-delay: 4.40s ;
+}
+.greetings > span:nth-child(29){
+    animation-delay:  4.50s;
+}
+.greetings > span:nth-child(30){
+    animation-delay:  5s;
+}
+.greetings > span:nth-child(31){
+    animation-delay:  5.10s;
+}
+.greetings > span:nth-child(32){
+    animation-delay: 5.20s ;
+}
+.greetings > span:nth-child(33){
+    animation-delay: 5.30s ;
+}
+.greetings > span:nth-child(34){
+    animation-delay: 5.40s ;
+}
+.greetings > span:nth-child(35){
+    animation-delay: 5.50s;
+}
+.greetings > span:nth-child(36){
+    animation-delay: 6s ;
+}
+.greetings > span:nth-child(37){
+    animation-delay: 6.10s ;
+}
+.greetings > span:nth-child(38){
+    animation-delay: 6.20s ;
+}
+
+
+.greetings{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.description:hover{
+    color: red;
+    animation-delay: 20s;
+}
+.description{
+    color: #111;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.button-30 a:hover{
+    color: #ff0000;
+}
+.button-30 a{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+}
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
